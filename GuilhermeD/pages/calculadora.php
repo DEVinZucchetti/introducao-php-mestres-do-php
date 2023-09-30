@@ -6,6 +6,11 @@
   <title>Document</title>
 </head>
 <body>
-  calculadora
+<h1>Calculadora</h1>
+  <form method="POST" action="resultado.php">
+    <label for="valor">Digite sua tabuada</label>
+    <input type="number" id="valor" name="valor">
+    <button type="submit">Calcular</button>
+  </form>
 </body>
 </html>
