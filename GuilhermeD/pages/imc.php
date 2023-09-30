@@ -6,6 +6,11 @@
   <title>Document</title>
 </head>
 <body>
-  imc
+  <h1>CalculadoraIMC</h1>
+  <label for="peso">Peso</label>
+  <input type="number" id="peso">
+  <label for="altura">Altura</label>
+  <input type="number" id="altura">
+  <button>Enviar dados</button>
 </body>
 </html>
