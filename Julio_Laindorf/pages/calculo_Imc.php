@@ -11,7 +11,32 @@ if(!$peso || !$altura ){
 else{
 
     $imc = $peso / ($altura * $altura);
-    echo ("O seu imc é " .number_format($imc , 2));
+    echo "O seu imc é " .number_format($imc , 2)."<br>";
+
+    if($imc <18.5){
+      echo "Abaixo do peso" ;
+
+    }
+    else if($imc >18.5 || $imc < 25){
+        echo "Peso ideal, Parabéns!!" ;
+
+    }
+    else if($imc = 25 || $imc < 30){
+        echo "Levemente acima do peso" ;
+
+    }
+    else if($imc = 30 || $imc < 35 ){
+        echo "Obesidade Grau I" ;
+
+    }
+    else if($imc = 35 || $imc < 40 ){
+        echo "Obesidade Grau II (severa)" ;
+
+    }
+    else {
+        echo "Obesidade III (mórbida" ;
+
+    }
 }
 
 ?>
