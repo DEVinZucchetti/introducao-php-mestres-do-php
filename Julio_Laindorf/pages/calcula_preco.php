@@ -14,22 +14,22 @@ else{
     switch($codigo) {
         case 1 : {
             $valor = $quantidade * 5;
-            echo "Você pediu $quantidade torradas e vai pagar R$" .number_format($valor,2);
+            echo "Você pediu $quantidade torrada(s) e vai pagar R$" .number_format($valor,2);
             break;
         }
         case 2 : {
             $valor = $quantidade * 6 ;
-            echo "Você pediu $quantidade torradas e vai pagar R$" .number_format($valor,2);
+            echo "Você pediu $quantidade pastel(is) e vai pagar R$" .number_format($valor,2);
             break;
         }
         case 3: {
             $valor = $quantidade * 8;
-            echo "Você pediu $quantidade torradas e vai pagar R$" .number_format($valor,2);
+            echo "Você pediu $quantidade folhado(s) e vai pagar R$" .number_format($valor,2);
             break;
         }
         case 4: {
             $valor = $quantidade * 15;
-            echo "Você pediu $quantidade torradas e vai pagar R$" .number_format($valor,2);
+            echo "Você pediu $quantidade xis e vai pagar R$" .number_format($valor,2);
             break;
         }
         default: {
