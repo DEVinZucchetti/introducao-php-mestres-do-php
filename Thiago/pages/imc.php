@@ -6,6 +6,12 @@
   <title>Document</title>
 </head>
 <body>
-  imc
+<form method="post" action="calcular_imc.php">
+    <label>Peso</label><br />
+    <input type="number" name="peso" /><br />
+    <label>Altura</label><br /> 
+    <input type="number" name="altura" step="any" /><br />
+    <button type="submit">Calcular</button>
+  </form>
 </body>
 </html>

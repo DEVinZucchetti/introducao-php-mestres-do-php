@@ -6,6 +6,12 @@
   <title>Document</title>
 </head>
 <body>
-  lanchonete
+<form method="post" action="calcular_preco.php">
+    <label>Código</label><br />
+    <input type="text" name="codigo" /><br />
+    <label>Quantidade</label><br /> 
+    <input type="number" name="quantidade" /><br />
+    <button type="submit">Calcular preço</button>
+  </form>
 </body>
 </html>
