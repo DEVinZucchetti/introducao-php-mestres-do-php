@@ -48,6 +48,7 @@ body {
     align-items: center;
 
     background-color: #fff;
+    padding: 50px;
 }
 
 .form-header {
@@ -100,17 +101,6 @@ body {
     cursor: pointer;
 }
 
-
-/* ESTILIZAÇÃO IMC */
-
-.text-imc {
-    font-size: 20px;
-}
-
-.result-imc {
-    font-size: 24px;
-}
-
 .button-again button {
     width: 100%;
 
@@ -125,4 +115,23 @@ body {
 .button-again a {
     text-decoration: none;
     color: white;
+}
+
+/* ESTILIZAÇÃO LANCHONETE */
+
+table {
+    width: 70%;
+    text-align: center;
+    border-collapse: collapse;
+
+    margin-top: 24px;
+}
+
+.select-input {
+    width: 100%;
+    padding: 14px;
+
+    border: 2px solid;
+
+    margin-bottom: 8px;
 }
