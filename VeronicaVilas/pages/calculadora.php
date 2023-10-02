@@ -24,12 +24,12 @@
 
         <label>Primeiro valor:</label>
         <div class="input-field" >
-          <input type="number" name="valor1" />
+          <input type="number" name="valor1" step="any"/>
         </div>
           
         <label>Segundo valor:</label>
         <div class="input-field">
-          <input type="number" name="valor2" />
+          <input type="number" name="valor2" step="any"/>
         </div>
 
         <label>Escolha a operação: </label>

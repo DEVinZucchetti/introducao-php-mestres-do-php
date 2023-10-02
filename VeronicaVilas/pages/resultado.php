@@ -29,22 +29,22 @@
             switch($operacao) {
               case 'soma': {
                 $resultado = number_format($valor1 + $valor2, 2, ",", ".");
-                echo "$valor1 + $valor2 = $resultado";
+                echo number_format($valor1, 2, ",", "."). " + " .number_format($valor2, 2, ",", "."). " = $resultado";
                 break;
               }
               case 'subtracao': {
                 $resultado = number_format($valor1 - $valor2, 2, ",", ".");
-                echo "$valor1 - $valor2 = $resultado";
+                echo number_format($valor1, 2, ",", "."). " - " .number_format($valor2, 2, ",", "."). " = $resultado";
                 break;
               }
               case 'multiplicacao': {
                 $resultado = number_format($valor1 * $valor2, 2, ",", ".");
-                echo "$valor1 * $valor2 = $resultado";
+                echo number_format($valor1, 2, ",", "."). " * " .number_format($valor2, 2, ",", "."). " = $resultado";
                 break;
               }
               case 'divisao': {
                 $resultado = number_format($valor1 / $valor2, 2, ",", ".");
-                echo "$valor1 / $valor2 = $resultado";
+                echo number_format($valor1, 2, ",", "."). " / " .number_format($valor2, 2, ",", "."). " = $resultado";
                 break;
               }
               default: {
