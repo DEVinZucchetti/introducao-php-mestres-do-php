@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <form class="container" method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>">
+  <form class="container" method="post" action="resultado.php">
     <h2>Calculadora</h2>
     <div>
       <label for="valorUm">Valor 1</label>
@@ -41,40 +41,7 @@
     </div>
     <br />  
     <button type="submit">Calcular</button><br />
-    <div>
-      <b>Resultado:</b> <?php
-
-                        $valorUm = $_POST["valorUm"];
-                        $valorDois = $_POST["valorDois"];
-                        $operacao = $_POST["operacao"];
-
-                        if ($valorUm && $valorDois && $operacao) {
-
-                          switch ($operacao) {
-                            case $operacao == "+";
-                              $resultado = $valorUm + $valorDois;
-                              echo $valorUm ." + ". $valorDois." = ".$resultado;
-                              break;
-                            case $operacao == "-";
-                              $resultado = $valorUm - $valorDois;
-                              echo $valorUm ." - ". $valorDois." = ".$resultado;
-                              break;
-                            case $operacao == "*";
-                              $resultado = $valorUm * $valorDois;
-                              echo $valorUm ." x ". $valorDois." = ".$resultado;
-                              break;
-                            case $operacao == "/";
-                              $resultado = $valorUm / $valorDois;
-                              echo $valorUm ." / ". $valorDois." = ".$resultado;
-                              break;
-                          }
-                        }
-
-                        ?>
-    </div>
   </form>
-
-
 </body>
 
 </html>
