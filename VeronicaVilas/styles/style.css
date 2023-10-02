@@ -119,7 +119,7 @@ body {
 
 /* ESTILIZAÇÃO LANCHONETE */
 
-table {
+.table-menu table {
     width: 70%;
     text-align: center;
     border-collapse: collapse;
@@ -127,6 +127,7 @@ table {
     margin-top: 24px;
 }
 
+/* ESTILIZAÇÃO CALCULADORA*/
 .select-input {
     width: 100%;
     padding: 14px;
@@ -134,4 +135,11 @@ table {
     border: 2px solid;
 
     margin-bottom: 8px;
+}
+
+/* ESTILIZAÇÃO MÉDIA */
+.table-average table {
+    width: 500px;
+    text-align: center;
+    border-collapse: collapse;
 }
