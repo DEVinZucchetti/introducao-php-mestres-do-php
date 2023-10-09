@@ -31,7 +31,7 @@
           foreach ($codigosCadastrados as $codigoCadastrado => $info) {
               echo "<tr>";
               echo "<td>$codigoCadastrado</td>";
-              echo "<td>{$info['preco']}</td>";
+              echo "<td> R$:{$info['preco']}</td>";
               echo "<td>{$info['descricao']}</td>";
               echo "</tr>";
           }
