@@ -23,12 +23,12 @@
 
 <body>
   <?php echo $_SERVER['PHP_SELF'] ?>
-  <form class="container" method="post" action="cartaFerias.php">
+  <form class="container" method="post" action="calcular_imc.php">
     <label>Peso (kg):</label>
-    <input type="number" placeholder="Informe seu peso" name="weight" />
+    <input type="number" placeholder="Informe seu peso" name="weight" step="0.01" />
     <br />
     <label>Altura (m):</label>
-    <input type="number" placeholder="Informe sua altura" name="height" />
+    <input type="number" placeholder="Informe sua altura" name="height" step="0.01" />
     <br />
     <button type="submit">Calcular</button>
   </form>
